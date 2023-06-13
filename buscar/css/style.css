@@ -103,7 +103,10 @@ input {
     border: 1px solid #636a6b;
     border-radius: 10px;
     padding: 3px;
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
 }
 .nome--item {
     width: 180px;
@@ -149,13 +152,21 @@ a {
 
 .container--itens {
     width: 100%;
+<<<<<<< HEAD
     height: 100%;
+=======
+    height: 510px;
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+<<<<<<< HEAD
     margin-top: 23px;
+=======
+    margin-top: 3px;
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
 }
 .r-titulo {
     margin-top: 10px;
@@ -163,6 +174,7 @@ a {
 .container--itens--mlhrs1 {
     background-color: #D9D9D9;
     width: 1170px;
+<<<<<<< HEAD
     height: 680px;
     display: flex;
     flex-wrap: wrap;
@@ -187,12 +199,26 @@ a {
 h2 {
     margin-top: 20px;
 }
+=======
+    height: 480px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 7px;
+}
+
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
 .img {
     width: 180px;
     height: 170px;
     background-color: #838E8F;
     border-radius: 10px;
+<<<<<<< HEAD
     margin-top: 6px;
+=======
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
 }
 .iten {
     width: 200px;
@@ -204,7 +230,11 @@ h2 {
     gap: 4px;
     border: 1px solid #636a6b;
     border-radius: 10px;
+<<<<<<< HEAD
     
+=======
+    padding: 3px;
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
 }
 .nome--item {
     width: 180px;
@@ -244,7 +274,11 @@ h2 {
 }
 .btn {
     width: 180px;
+<<<<<<< HEAD
     height: 35px;
+=======
+    height: 30px;
+>>>>>>> 7014f8a6d8c74a2ae6da4c5044819e006eaa0b4a
     background-color: #042453;
     border-radius: 23px;
     color: white;
