@@ -32,7 +32,7 @@
         </div>
         <nav class="nav--menu">
             <ul>
-                <li><a class="categoria--a" href="#">Categorias</a></li>
+                <li><a class="categoria--a" href="../../buscar/index.php">Buscar</a></li>
                 <li><a class="categoria--a" href="../../cadastrar/index.php">Cadastrar</a></li>
             </ul>
         </nav>
@@ -60,8 +60,8 @@
                                 echo "<p>".$linha["nome"]."</p>";
                                 echo "</div>";
                                 echo "<div class='container--info'>";
-                                echo "<p class='nota'><img src='../assets/star.png' alt='nota'>". $linha["nota"] ."</p>";
-                                echo "<p class='categoria'><img src='../assets/categories.png'>". $linha["categoria"] ."</p>";
+                                echo "<p class='nota'><img src='./assets/star.png' alt='nota'>". $linha["nota"] ."</p>";
+                                echo "<p class='categoria'><img src='./assets/categories.png'>". $linha["categoria"] ."</p>";
                                 echo "</div>";
                                 echo "<button><a href='../../nPage/index.php?id=" . $linha["id"] . "''class='button'>Ver detalhes</a></button>";
                                 echo "</div>";
