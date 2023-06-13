@@ -15,7 +15,7 @@
         </div>
         <nav class="nav--menu">
             <ul>
-                <li><a class="categoria--a" href="#">Categorias</a></li>
+                <li><a class="categoria--a" href="../../categorias/index.php">Categorias</a></li>
                 <li><a class="categoria--a" href="../../cadastrar/index.php">Cadastrar</a></li>
             </ul>
         </nav>
