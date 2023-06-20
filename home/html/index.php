@@ -30,15 +30,26 @@
         <div class="container--logo">
             <h1>Opinião.com</h1>
         </div>
+        <button class='btn-menu' onclick="openMenu()"><img class='icon-menu' src="../assets/menu-hb.png" alt=""></button>
         <nav class="nav--menu">
             <ul>
-                <li><a class="categoria--a" href="#">Categorias</a></li>
+                <li><a class="categoria--a" href="../../buscar/index.php">Buscar</a></li>
                 <li><a class="categoria--a" href="../../cadastrar/index.php">Cadastrar</a></li>
             </ul>
         </nav>
+        
     </header>
-    <h2 class="sub--titulo">Melhores Avaliados</h2>
+    <section class='container--menu--2'>
+        <div class='menu--2'>
+            <ul>
+                <li><a class="categoria--a--2" href="../../buscar/index.php"><img class='search-icon' src="../assets/search.png" alt=""> Buscar</a></li>
+                
+                <li><a class="categoria--a--2" href="../../cadastrar/index.php"><img class='cadastrar-icon' src="../assets/cadastrar.png" alt=""> Cadastrar</a></li>
+            </ul>
+        </div>
+    </section>
     <section class="container--itens">
+    <h2 class="sub--titulo">Melhores Avaliados</h2>
         <div class="container--itens--mlhrs1">
             <?php
             //mostrando os items com maior notas 
@@ -63,7 +74,7 @@
                                 echo "<p class='nota'><img src='../assets/star.png' alt='nota'>". $linha["nota"] ."</p>";
                                 echo "<p class='categoria'><img src='../assets/categories.png'>". $linha["categoria"] ."</p>";
                                 echo "</div>";
-                                echo "<button><a href='../../nPage/index.php?id=" . $linha["id"] . "''class='button'>Ver detalhes</a></button>";
+                                echo "<button class='btn'><a href='../../nPage/index.php?id=" . $linha["id"] . "''class='button'>Ver detalhes</a></button>";
                                 echo "</div>";
                                 
                                  $count++;
@@ -84,5 +95,19 @@
     <footer>
         &copy;VictorRodrigues
     </footer>
+    <script type='text/javascript'>
+        let btn = document.querySelector('.btn-menu')
+let navMenu = document.querySelector('.nav--menu')
+let menu = document.querySelector('.menu--2') 
+let menuBtn = document.querySelector('.icon-menu')
+// btn.addEventListener('onclick', () => {
+//     navMenu.classList.toggle('open')
+// })
+
+    function openMenu() {
+        menu.classList.toggle('open')
+    }
+
+    </script>
 </body>
 </html>
